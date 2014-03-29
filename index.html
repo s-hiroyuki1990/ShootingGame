@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>test : shooting game</title>
+	<link rel="stylesheet" href="css/shooting-game.css">
+</head>
+<body>
+	<!-- 使用する画像 -->
+	<img id="player" class="no-display" src="img/player_type1.png">
+	<img id="enemy-abyss" class="no-display" src="img/enemy_abyss.png">
+	<img id="enemy-worm" class="no-display" src="img/enemy_worm.png">
+	<img id="enemy-hornet" class="no-display" src="img/enemy_hornet.png">
+	<img id="enemy-raijin" class="no-display" src="img/enemy_raijin.png">
+	<img id="player-bullet" class="no-display" src="img/player_bullet_type2.png">
+	<img id="enemy-bullet" class="no-display" src="img/player_bullet_type2.png">
+
+	<article class="main-content">
+		<h1 class="game-title">Shooting Game</h1>
+		<h2 class="game-title-desc">my shooting game. made by javascript.</h2>
+
+		<div class="wrap-game">
+			<!-- 画面 -->
+			<div class="game-frame">
+				<canvas id="screen" width='400' height='480'></canvas>
+			</div>
+			<div>
+				<section class="game-desc status">
+					<h1>Player Status</h1>
+					<dl>
+					<dt>Player HP</dt>
+					<dd id="player-hp-counter"> </dd>
+					<dt>Bullet Counter</dt>
+					<dd id="player-bullet-counter"> </dd>
+					<dt>Score</dt>
+					<dd id="player-score-counter"> </dd>
+					</dl>
+				</section>
+				<section class="game-desc command">
+					<h1>Command</h1>
+					<dl>
+					<dt>[ SPACE ]</dt>
+					<dd>Shooooooooooooooot !!</dd>
+					<dt>[ → ]</dt>
+					<dd>move to right</dd>
+					<dt>[ ← ]</dt>
+					<dd>move to left</dd>
+					</dl>
+				</section>
+				<a class="game-stop" id="stop-btn">STOP</a>
+				<a class="game-start" id="start-btn">START</a>
+			</div>
+		</div>
+	</article>
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/shooting-game.js"></script>
+</body>
+</html>

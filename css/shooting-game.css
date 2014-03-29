@@ -1,0 +1,122 @@
+body {
+	background-image: url(../img/back3.png);
+	background-size: cover;
+}
+canvas {
+	border: 1px solid #999;
+	display: block;
+	margin: auto;
+}
+button {
+	margin: none;
+	padding: none;
+	border: none;
+	background-color: transparent;
+}
+button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+.no-display {
+	display: none;
+}
+
+.main-content {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.wrap-game {
+}
+
+.game-frame {
+	width: 400px;
+	height: 480px;
+	background-color: #333;
+	border: 2px solid #FFF;
+	border-radius: 10px;
+	padding: 30px;
+	float: left;
+	margin-right: 50px;
+}
+
+.game-desc {
+	width: 360px;
+	padding: 10px 20px;
+	display: inline-block;
+	/*background-color: rgba(0,0,0,0.7);*/
+	color: #FFF;
+	margin-bottom: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.game-desc h1 {
+	font-size: 16px;
+	margin: 10px 0;
+}
+.game-desc dl {
+	margin: 10px 0;
+}
+.game-desc dt {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.game-desc dd {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.game-desc.status {
+	background-color: #3c3bb7;
+}
+.game-desc.command {
+	background-color: #418fe2;
+}
+
+#screen {
+	background-image: url(../img/ground.jpg);
+	background-size: cover;
+}
+
+.game-title {
+	color: #FFF;
+	margin-bottom: 0;
+}
+.game-title-desc {
+	font-size: 12px;
+	color: rgba(230,230,230,0.8);
+	margin: 0 0 20px;
+}
+
+.game-start {
+	width: 175px;
+	background-color: rgb(173,49,80);
+	display: inline-block;
+	color: #FFF;
+	text-align: center;
+	padding: 25px 0;
+	font-weight: 600;
+	font-size: 14px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.game-stop:hover,
+.game-start:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+.game-stop {
+	width: 175px;
+	background-color: rgb(147,54,162);
+	display: inline-block;
+	margin-right: 5px;
+	color: #FFF;
+	text-align: center;
+	padding: 25px 0;
+	font-weight: 600;
+	font-size: 14px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
